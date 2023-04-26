@@ -1,5 +1,7 @@
 # vac-go-proxy
 
+[English readme](https://github.com/vacuityv/vac-go-proxy/blob/main/README.en.md)
+
 用go语言实现的一个http代理工具，支持多端设备
 
 
