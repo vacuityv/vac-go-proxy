@@ -67,9 +67,9 @@ windows:
 
 ```shell
 # 无鉴权：
-curl -i --proxy http://127.0.0.1:7777 https://www.baidu.com
+curl -i --proxy http://127.0.0.1:7777 https://sample.com
 # 有鉴权：
-curl -i --proxy http://test:1234@127.0.0.1:7777 https://www.baidu.com
+curl -i --proxy http://test:1234@127.0.0.1:7777 https://sample.com
 ```
 
 ## 配置文件说明
