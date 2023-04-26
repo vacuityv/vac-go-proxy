@@ -4,8 +4,6 @@
 
 A http tool implemented by go language, support multi-platform
 
-
-
 ## Function support
 
 1、optional username and password verification
