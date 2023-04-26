@@ -4,8 +4,6 @@
 
 用go语言实现的一个http代理工具，支持多端设备
 
-
-
 ## 功能支持
 
 1、可选的用户名密码验证
@@ -42,11 +40,11 @@ $ vacproxy -help
         -log string
             the log file path (default "./vacproxy.log")
         -pid string
-            the pid file path (default "./vacproxy.pid")
+            the pid file path[Windows platform not support] (default "./vacproxy.pid")
         -q  
-            quit proxy
+            quit proxy[Windows platform not support]
         -s string
-            Send signal to the daemon:
+            Send signal to the daemon[Windows platform not support]:
                 stop — shutdown, same as -q
                 reload — reloading the configuration file
 ```
